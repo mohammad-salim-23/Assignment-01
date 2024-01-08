@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
 *{
     box-sizing: border-box;
   
@@ -17,6 +18,9 @@ height: 600px;
    margin-top: 50px;
    margin-left: 10%;
    margin-right: 10%;
+}
+main{
+
 }
 .header p{
     color: #FFF; 
@@ -120,6 +124,23 @@ align-items: center;
 flex-shrink: 0;
 }
 
+.subscriber{
+    width: 1320px;
+height: 616px;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+margin-top: 120px;
+margin-left: 10%;
+margin-right: 10%;
+
+}
+.container3{
+    width: 1320px;
+height: 482px;
+background: rgba(255, 0, 0, 0.05);
+padding-top: 100px;
+
+}
 .container3 .jamela2{
     color: #F00;
     text-align: center;
@@ -127,16 +148,10 @@ flex-shrink: 0;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
-    line-height: 56px; /* 175% */
+    line-height: 56px; 
     text-transform: capitalize; 
 }
-.container{
-    padding-top:100px;
-padding-right:386px;
-padding-left: 385px;
-padding-bottom: 214px;
-text-align: center;
-}
+
 .container3 p{
     color: #070211;
 font-family: Inter;
@@ -147,10 +162,177 @@ font-size: 32px;
 .c3btn{
     display: inline-flex;
 padding: 16px 32px;
- margin-left: 730px; 
+ margin-left: 600px; 
 justify-content: center;
 align-items: center;
 gap: 10px;
 border-radius: 8px;
 background: #F00;
+}
+.container4-title{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+line-height: normal;
+}
+.text h3{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+line-height: normal;
+
+}
+.text p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+
+line-height:32px;
+padding-bottom: 48px;
+ 
+}
+.column1-img , .column2-img{
+
+   margin-right:24px;
+    
+}
+.img-border{
+    margin-right:24px;
+}
+.icon{
+   
+padding-left: 700px;
+padding-right: 585;
+padding-top: 80px;
+padding-right: 585px;
+}
+.subscriber{
+    width: 1320px;
+height: 616px;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+margin-bottom: 120px;
+}
+.subscriber h3{
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: normal;
+
+}
+.subscriber p{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+margin-left: 212px;
+margin-right: 212px;
+}
+.jamela3{
+   
+
+
+    display: flex;
+    border-radius: 50px;
+ justify-content: center;
+ align-items: center;
+ padding-left: 124px;
+ padding-right: 124px;
+ margin-bottom: 120px;
+
+}
+.jamela3 input[type="text"]{
+    color: rgba(7, 2, 17, 0.30);
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 25px;
+padding-left: 30px;
+padding-bottom: 25px;
+padding-right: 477px;
+}
+.Subscribebtn{
+    width: 210px;
+height: 72px;
+    border-radius: 0px 50px 50px 0px;
+background: #F00;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+
+/* footer style */
+footer{
+    width: 1600px;
+    height: 609px; 
+     background: #070211;  
+}
+.footer-text{
+    display: flex;
+   justify-content: space-around;
+}
+.column1-text{
+     color: #FFF; 
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; 
+padding-top: 120px;
+}
+.column2-text{
+     color: #FFF; 
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; 
+padding-top: 120px;
+}
+
+ .social-links{
+    display: flex;
+    width: 64px;
+    height: 64px; 
+    padding-left: 690px;
+    
+
+}
+.column2-text a,.column2-text p{
+    display: inline-block;
+}
+.social-links a{
+    margin-right: 24px;
+    
+}
+.right{
+    display: flex;
+    justify-content:space-between;
+}
+.leftR{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+padding-left: 140px;
+padding-right: 880px;
+}
+.rightR{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-right: 140px;
 }
